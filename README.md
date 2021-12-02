@@ -1,3 +1,3 @@
 # projeto-instagram-DIO ✍️
 
-##Desafio da DIO, criação da página inicial do INSTAGRAM 📱
+## Desafio da DIO, criação da página inicial do INSTAGRAM 📱
