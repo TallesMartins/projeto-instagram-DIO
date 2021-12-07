@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/main.css">
+    <!--responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    <!--SwiperJS-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
+    <title>Netflix Clone</title>
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <a href="#"class="logo"><img src="./imgs/netflix-logo-completa.png" width="92.5"></a>
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentário</a>
+            </nav>
+        </div>
+    </header>
+        
+        
+<!--       
+    <div class="video-preloader">
+
+        </div>
+        <div class="video-controls">
+            <div class="video-progress-bar">
+                <div class="video-loader">
+
+                </div>
+                <div class="video-progress">
+
+                </div>
+            </div>
+            <div class="video-play"></div>
+            <div class="video-volume"></div>
+            <div class="slide">
+                <div class="slider-vol"></div>
+            </div>
+            <div class="video-time">00:00 | 00:00</div>
+            <div class="video-screen"></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+--> 
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">ONE PIECE</h3>
+                <p class="descricao">O capitão Luffy navega com sua tripulação à procura de um tesouro que pode torná-lo o novo rei dos piratas</p>
+                <div class="botoes">
+                    <button role="button" class="botao">
+                        <i class="fas fa-play"></i>
+                        <a href="video-player.html">ASSISTIR AGORA</a> 
+                    </button>    
+                    <button role="button" class="botao" id="info" onclick="player(this)">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>                        
+        </div>
+    </main>
+    <div class="carrossel-filmes">
+        <h2>Popular no Creepyflix</h2>
+        <div class="owl-carousel owl-theme">
+            <div class="item"><img class="box-item" src="./imgs/mini.jpg"></div>
+            <div class="item"><img class="box-item" src="./imgs/mini2.jpg"></div>
+            <div class="item"><img class="box-item" src="./imgs/mini3.jpg"></div>
+            <div class="item"><img class="box-item" src="./imgs/mini4.jpg"></div>
+            <div class="item"><img class="box-item" src="./imgs/mini5.jpg"></div>
+            <div class="item"><img class="box-item" src="./imgs/mini6.jpg"></div>
+            <div class="item"><img class="box-item" src="./imgs/mini7.jpg"></div>
+            <div class="item"><img class="box-item" src="./imgs/mini8.jpg"></div>
+            <div class="item"><img class="box-item" src="./imgs/mini9.jpg"></div>
+            <div class="item"><img class="box-item" src="./imgs/mini10.jpg"></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+    <div class="carrossel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item"><img class="box-item" src="./imgs/mini.jpg"></div>
+            <div class="item"><img class="box-item" src="./imgs/mini2.jpg"></div>
+            <div class="item"><img class="box-item" src="./imgs/mini3.jpg"></div>
+            <div class="item"><img class="box-item" src="./imgs/mini4.jpg"></div>
+            <div class="item"><img class="box-item" src="./imgs/mini5.jpg"></div>
+            <div class="item"><img class="box-item" src="./imgs/mini6.jpg"></div>
+            <div class="item"><img class="box-item" src="./imgs/mini7.jpg"></div>
+            <div class="item"><img class="box-item" src="./imgs/mini8.jpg"></div>
+            <div class="item"><img class="box-item" src="./imgs/mini9.jpg"></div>
+            <div class="item"><img class="box-item" src="./imgs/mini10.jpg"></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+    <script src="https://kit.fontawesome.com/e81896c13c.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="./js/owl/main.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    </body>
+</html>
